@@ -50,6 +50,15 @@ python chatbot.py "Olá, mundo"
 ```
 The script prints the response returned by the model.
 
+### 7. Friendly Web Interface (Optional)
+For an easier way to chat, install **gradio** and run the included UI:
+```bash
+pip install gradio
+python chat_ui.py
+```
+This opens a browser window with a simple chat box that sends your text to the
+local Ollama instance and displays the response.
+
 ## Files
 - `chatbot.py` – example client that calls the Ollama API
 - `evolution_api.py` – minimal Flask API serving as an example
